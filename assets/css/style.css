@@ -6401,3 +6401,7 @@ a.twitter-follow-me:hover,
 }
 
 .stretched #copyrights { margin-bottom: -20px; }
+/*justify the text alignment*/
+.justify{
+    text-align: justify;
+}
