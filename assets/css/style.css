@@ -524,7 +524,7 @@ input[type="radio"] {
     top: 2px;
 }
 
-textarea { 
+textarea {
 	width: 90%;
 	height: 150px;
 	line-height: 150%;
@@ -1515,15 +1515,15 @@ form small {
 .flexslider a:focus  { outline: none; border: none; }
 .slider-wrap,
 .flex-control-nav,
-.flex-direction-nav {margin: 0; padding: 0; list-style: none; border: none;} 
+.flex-direction-nav {margin: 0; padding: 0; list-style: none; border: none;}
 
 .flexslider {position: relative;margin: 0; padding: 0;}
 .flexslider .slider-wrap > .slide {display: none; -webkit-backface-visibility: hidden;}
 .flexslider .slider-wrap img {width: 100%; display: block;}
 .flex-pauseplay span {text-transform: capitalize;}
 
-.slider-wrap:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
-html[xmlns] .slider-wrap {display: block;} 
+.slider-wrap:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slider-wrap {display: block;}
 * html .slider-wrap {height: 1%;}
 
 .no-js .slider-wrap > .slide:first-child {display: block;}
@@ -3630,7 +3630,7 @@ p.wp-caption-text {
 
 .promo {
     position: relative;
-    background: url("images/promo.png") repeat;
+    background: url("../../assets/images/promo.png") repeat;
     padding: 15px 18px;
     border-left: 3px solid #57B3DF;
     margin-bottom: 30px;
@@ -3973,12 +3973,12 @@ p.wp-caption-text {
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
 	color: #333;
-	background: url("images/icons/toggle-plus.png") no-repeat left;
+	background: url("../../assets/images/icons/toggle-plus.png") no-repeat left;
 }
 
 .toggle .toggleta {
     font-weight: bold;
-    background: url("images/icons/toggle-minus.png") no-repeat left;
+    background: url("../../assets/images/icons/toggle-minus.png") no-repeat left;
 }
 
 .toggle .togglec {
@@ -5247,7 +5247,7 @@ button.button span {
     line-height: 40px;
     font-family: "Droid Serif", serif;
     background-color: #444;
-    margin: 0 -1px;    
+    margin: 0 -1px;
     color: #FFF;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
@@ -5472,7 +5472,7 @@ button.button span {
     border-radius: 4px;
     border: 15px solid #FFF;
 }
-    
+
 .recaptcha_is_showing_audio embed {
     height: 0;
     width: 0;
@@ -5734,7 +5734,7 @@ body > iframe { display: none; }
     margin: 0 -40px -40px 0;
 }
 
-#footer .col_one_fourth {            
+#footer .col_one_fourth {
     width: 210px;
     margin: 0 40px 40px 0;
 }
@@ -6295,7 +6295,7 @@ a.twitter-follow-me:hover,
     height: 16px;
 }
 
- 
+
 /* ----------------------------------------------------------------
     Stretched Layout
 -----------------------------------------------------------------*/
@@ -6314,7 +6314,7 @@ a.twitter-follow-me:hover,
 .stretched .content-wrap {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     -moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);            
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .stretched #header.header2 #primary-menu ul,

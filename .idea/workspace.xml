@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec1f2bbe-8324-403f-9372-49b045f1d9b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/layouts/default.php" afterPath="$PROJECT_DIR$/application/views/layouts/default.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/home.php" afterPath="$PROJECT_DIR$/application/views/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
     </list>
     <ignored path="logistics.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="ec1f2bbe-8324-403f-9372-49b045f1d9b9" time="1382856222248" ignored="false" />
-    <file path="/default.php" changelist="ec1f2bbe-8324-403f-9372-49b045f1d9b9" time="1382857184148" ignored="false" />
-    <file path="/style.css" changelist="ec1f2bbe-8324-403f-9372-49b045f1d9b9" time="1382857546529" ignored="false" />
-    <file path="/home.php" changelist="ec1f2bbe-8324-403f-9372-49b045f1d9b9" time="1382858020815" ignored="false" />
+    <file path="/default.php" changelist="ec1f2bbe-8324-403f-9372-49b045f1d9b9" time="1382880140941" ignored="false" />
+    <file path="/style.css" changelist="ec1f2bbe-8324-403f-9372-49b045f1d9b9" time="1382877598049" ignored="false" />
+    <file path="/home.php" changelist="ec1f2bbe-8324-403f-9372-49b045f1d9b9" time="1382879556440" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,22 +31,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="0" selection-start="3075" selection-end="3075" vertical-scroll-proportion="0.5515267">
+            <state line="124" column="121" selection-start="2903" selection-end="2903" vertical-scroll-proportion="-12.153846">
               <folding>
-                <element signature="n#style#0;n#div#9;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/layouts/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="379" column="0" selection-start="14753" selection-end="14753" vertical-scroll-proportion="-5.269231">
+            <state line="132" column="15" selection-start="3936" selection-end="3936" vertical-scroll-proportion="0.5400763">
               <folding>
+                <element signature="tag#li#2;tag#ul#0;tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -57,7 +60,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="805" column="68" selection-start="17530" selection-end="17530" vertical-scroll-proportion="0.0">
+            <state line="3980" column="34" selection-start="87412" selection-end="87412" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,9 +85,9 @@
     <option name="changedFiles">
       <list>
         <option value="E:/TEMPLATES/Paid templates/coworker_2/coworker2/themes.semicolonweb.com/html/coworker/index-layout2.html" />
-        <option value="$PROJECT_DIR$/application/views/layouts/default.php" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/application/views/home.php" />
+        <option value="$PROJECT_DIR$/application/views/layouts/default.php" />
       </list>
     </option>
   </component>
@@ -369,26 +372,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="805" column="68" selection-start="17530" selection-end="17530" vertical-scroll-proportion="0.0">
+        <state line="3980" column="34" selection-start="87412" selection-end="87412" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/layouts/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="379" column="0" selection-start="14753" selection-end="14753" vertical-scroll-proportion="-5.269231">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="0" selection-start="3075" selection-end="3075" vertical-scroll-proportion="0.5515267">
+        <state line="124" column="121" selection-start="2903" selection-end="2903" vertical-scroll-proportion="-12.153846">
           <folding>
-            <element signature="n#style#0;n#div#9;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layouts/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="15" selection-start="3936" selection-end="3936" vertical-scroll-proportion="0.5400763">
+          <folding>
+            <element signature="tag#li#2;tag#ul#0;tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
