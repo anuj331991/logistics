@@ -5,7 +5,13 @@
         -webkit-box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.07);
         border-top-color: #E5E5E5;
     }
+
+    .img_border {
+        border: 1px solid #dae9ec;
+        padding: 5px;
+    }
 </style>
+
 
 <div id="content">
 
@@ -85,17 +91,8 @@
 
 
             <div class="col_one_third col_last">
-
-                <div class="well callout">
-
-                    <h2>We're <span>Hiring</span>!</h2>
-
-                    <p class="muted">Donec vitae lacus sed risus accumsan consectetur ut a ligula. Etiam vitae
-                        nisi diam, in rutrum dui eget varius nulla lacus ut erat.</p>
-
-                    <a href="#" class="simple-button nomargin">Apply Now</a>
-
-                </div>
+                <br><br>
+                <img class="img_border" src="<?php echo base_url('assets/images/ocean_freight.jpg'); ?>" alt=""/>
 
             </div>
 

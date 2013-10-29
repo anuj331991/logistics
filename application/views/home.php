@@ -11,14 +11,13 @@
 
                 <div class="slide">
 
-                    <img src="images/slider/1.jpg" alt="Slider 1"/>
+                    <img src="<?php echo base_url('assets/images/slider/slider-1.jpg'); ?>" alt="Slider 1"/>
 
                     <div class="slide-caption slide-caption2 slide-caption-left">
 
-                        <h3>Ultra Responsive Design</h3>
+                        <h3>Asia's Premium Logistics Service Privider</h3>
 
-                        <p>Nam ultricies dolor eu velit varius scelerisque. Vestibulum in lacus in felis pretium feugiat
-                            non sed elit.</p>
+                        <p>We guarantee quality, safety, efficiency and sustainability of our services.</p>
 
                     </div>
 
@@ -26,22 +25,27 @@
 
                 <div class="slide">
 
-                    <img src="images/slider/2.jpg" alt="Slider 2"/>
+                    <img src="<?php echo base_url('assets/images/slider/slider-2.jpg'); ?>" alt="Slider 2"/>
 
-                    <div class="slide-caption">Bootstrap Components Compatible</div>
+                    <div class="slide-caption">
+
+                        <h3 style="color:white">Freight Forwarding</h3>
+
+                        <p>We are the global leader in Air Freight.</p>
+
+                    </div>
 
                 </div>
 
                 <div class="slide">
 
-                    <img src="images/slider/3.jpg" alt="Slider 3"/>
+                    <img src="<?php echo base_url('assets/images/slider/slider-3.jpg'); ?>" alt="Slider 3"/>
 
                     <div class="slide-caption slide-caption2">
 
-                        <h3>InBuilt Power Features</h3>
+                        <h3>Strong Distributed Network</h3>
 
-                        <p>Nam ultricies dolor eu velit varius scelerisque. Vestibulum in lacus in felis pretium feugiat
-                            non sed elit.</p>
+                        <p>We have specialised people working for you every step of the way.</p>
 
                     </div>
 
@@ -49,19 +53,22 @@
 
                 <div class="slide">
 
-                    <img src="images/slider/4.jpg" alt="Slider 4"/>
+                    <img src="<?php echo base_url('assets/images/slider/slider-4.jpg'); ?>" alt="Slider 4"/>
 
-                    <div class="slide-caption">Boxed &amp; Full Layouts</div>
-
-                </div>
-
-                <div class="slide">
-
-                    <img src="images/slider/5.jpg" alt="Slider 5"/>
-
-                    <div class="slide-caption caption-left">Unlimited Colors</div>
+                    <div class="slide-caption">
+                        <h3 style="color: white">Ocean Freight</h3>
+                        <p>We offer superior means of transporting your goods by Ocean.</p>
+                    </div>
 
                 </div>
+
+                <!--                <div class="slide">-->
+                <!---->
+                <!--                    <img src="images/slider/5.jpg" alt="Slider 5"/>-->
+                <!---->
+                <!--                    <div class="slide-caption caption-left">Unlimited Colors</div>-->
+                <!---->
+                <!--                </div>-->
 
 
             </div>
@@ -173,204 +180,150 @@
 
 <div class="tab_widget side-tabs clearfix bottommargin" id="tabwidget-1">
 
-<ul class="tabs">
-    <li><a href="#tab-tab1" data-href="#tab-tab1"><i class="icon-resize-full"></i> Responsive Design</a></li>
-    <li><a href="#tab-tab2" data-href="#tab-tab2"><i class="icon-font"></i> Google Fonts Support</a></li>
-    <li><a href="#tab-tab3" data-href="#tab-tab3"><i class="icon-picture"></i> 12 Awesome Sliders</a></li>
-    <li><a href="#tab-tab4" data-href="#tab-tab4"><i class="icon-pencil"></i> Unlimited Colors</a></li>
-    <li><a href="#tab-tab5" data-href="#tab-tab5"><i class="icon-beaker"></i> Bootstrap Components</a></li>
-    <li><a href="#tab-tab6" data-href="#tab-tab6"><i class="icon-th-large"></i> 2 Main Layouts</a></li>
-</ul>
+    <ul class="tabs">
+        <li><a href="#tab-tab1" data-href="#tab-tab1"><i class="icon-cog"></i> Strong Assets</a></li>
+        <li><a href="#tab-tab2" data-href="#tab-tab2"><i class="icon-bullhorn"></i> Talented Team</a></li>
+        <li><a href="#tab-tab3" data-href="#tab-tab3"><i class="icon-group"></i> Supply Chain Visibility</a></li>
+        <li><a href="#tab-tab4" data-href="#tab-tab4"><i class="icon-plus-sign"></i> End To End Solutions</a></li>
+        <li><a href="#tab-tab5" data-href="#tab-tab5"><i class="icon-move"></i> Consulting and Solutions Design </a>
+        </li>
 
-<div class="tab_container">
+    </ul>
 
-    <div id="tab-tab1" class="tab_content clearfix">
+    <div class="tab_container">
 
-        <div class="wp-caption alignright notopmargin">
+        <div id="tab-tab1" class="tab_content clearfix">
 
-            <img src="images/slider/sample.jpg" class="img-polaroid" alt="Image" title="Image"/>
+            <div class="wp-caption alignright notopmargin">
 
-            <p class="wp-caption-text">Out of the Blue.</p>
+                <img src="<?php echo base_url('assets/images/asset.jpg'); ?>" class="img-polaroid" alt="Image" title="Image"/>
+
+                <p class="wp-caption-text">Out of the Blue.</p>
+
+            </div>
+
+            <h3>Ultra Solid Possessions</h3>
+
+            <p>We continually invest in our own assets, reassuring you of our dedication to providing reliable, highly
+                flexible support for the future expansion and long-term growth of your business.
+            </p>
+
+            <p>The strength of the company lies in its combination of innovative skills in both transport and logistics,
+                a highly developed network, advanced transport management systems and a sharp
+                focus on quality and service.These qualities are reflected in the high degree of customer satisfaction,
+                particularly with prompt delivery times, low loss rates and value for money.</p>
 
         </div>
 
-        <h3>Ultra Responsive Layouts</h3>
 
-        <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula
-            ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non
-            commodo luctus.Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh
-            ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue.</p>
+        <div id="tab-tab2" class="tab_content clearfix">
 
-        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus
-            posuere velit aliquet. Duis mollis, est non commodo luctus.Donec sed odio dui. Nulla vitae elit libero,
-            a pharetra augue.</p>
-
-    </div>
+            <h3>Always their to help you</h3>
 
 
-    <div id="tab-tab2" class="tab_content clearfix">
+            <p>Our strength lies in a talented, internationally minded team with the skill sets to handle India and
+                Asia's growing diversity. We know your business. We speak your language.</p>
 
-        <h3>Icons List</h3>
-
-        <div class="dropcap">D</div>
-        <p>onec sed odio dui. Nulla <span class="highlight ntip" title="ToolTip Example">vitae elit</span> libero, a
-            pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante
-            venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Donec sed odio dui. Nulla
-            vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae
-            elit libero, a pharetra augue.Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere
-            erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.</p>
-
-        <div class="nobottommargin entry_content">
-
-            <div class="col_one_fourth">
-
-                <ul class="nobottommargin">
-
-                    <li class="icon-reorder">Styled List 1</li>
-                    <li class="icon-reorder">Styled List 2</li>
-                    <li class="icon-reorder">Styled List 3</li>
-                    <li class="icon-reorder">Styled List 4</li>
-
-                </ul>
-
-            </div>
-
-            <div class="col_one_fourth">
-
-                <ul class="nobottommargin">
-
-                    <li class="icon-phone">Styled List 1</li>
-                    <li class="icon-phone">Styled List 2</li>
-                    <li class="icon-phone">Styled List 3</li>
-                    <li class="icon-phone">Styled List 4</li>
-
-                </ul>
-
-            </div>
-
-            <div class="col_one_fourth">
-
-                <ul class="nobottommargin">
-
-                    <li class="icon-search">Styled List 1</li>
-                    <li class="icon-search">Styled List 2</li>
-                    <li class="icon-search">Styled List 3</li>
-                    <li class="icon-search">Styled List 4</li>
-
-                </ul>
-
-            </div>
-
-            <div class="col_one_fourth col_last">
-
-                <ul class="nobottommargin">
-
-                    <li class="icon-download-alt">Styled List 1</li>
-                    <li class="icon-download-alt">Styled List 2</li>
-                    <li class="icon-download-alt">Styled List 3</li>
-                    <li class="icon-download-alt">Styled List 4</li>
-
-                </ul>
-
-            </div>
-
+            <p>
+                With its international organization based on the flexible and efficient operation of both its own
+                vehicle fleet and external capacity, the company can respond effectively to the rapidly changing demand
+                for international transport in terms of both volume and destinations
+            </p>
 
         </div>
 
-    </div>
+        <div id="tab-tab3" class="tab_content clearfix">
 
-    <div id="tab-tab3" class="tab_content clearfix">
+            <h3>Store Network Visibility</h3>
 
-        <h3>12 Awesome Responsive Sliders</h3>
+            <p>The proprietary Nolan platform provides you with a common space to connect all parties along
+                the supply chains, allowing for the consolidation and compilation of various monitoring channels to
+                create a win-win situation for all stakeholders.
+            </p>
 
-        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus
-            posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed
-            consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+            <div class="col_half entry_content ">
 
-        <div class="col_half entry_content ">
+                <ul class="bottommargin">
 
-            <ul class="bottommargin">
+                    <li class="icon-ok">Door-to-Door</li>
+                    <li class="icon-ok">Airport-to-Airport</li>
+                    <li class="icon-ok">Door-to-Airport</li>
+                    <li class="icon-ok">Flexible Service Options</li>
 
-                <li class="icon-ok">Layer Slider</li>
-                <li class="icon-ok">Revolution Slider</li>
-                <li class="icon-ok">Refine Slider</li>
-                <li class="icon-ok">Refine Thumb Slider</li>
-                <li class="icon-ok">Nivo Slider</li>
-                <li class="icon-ok">3D Slider</li>
+                </ul>
 
+            </div>
+
+            <div class="col_half col_last entry_content ">
+
+                <ul class="bottommargin">
+
+                    <li class="icon-ok">Container Loading & Unloading</li>
+                    <li class="icon-ok">Consolidation & Deconsolidation</li>
+                    <li class="icon-ok">Heavy Machinery- Over Dimensional</li>
+                    <li class="icon-ok">Oversized Cargo</li>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div id="tab-tab4" class="tab_content clearfix">
+
+            <h3>High Class Solutions</h3>
+
+            <p>When you need end-to-end support from your logistics partner, Nolan can deliver the complete service.</p>
+            <ul>Global End to End supply chain management for:
+                <li class="icon-caret-right">finished goods</li>
+                <li class="icon-caret-right">inbound to production and spare parts.</li>
             </ul>
 
+            <p>
+                Globalized supply chains are always complex. With complexity comes risk – and with risk comes cost.
+
+                Nolan has developed the Smart End to End concept to reduce both risk and cost. It makes your supply
+                chain more efficient from end to end – which means a positive impact on your balance sheet.
+            </p>
         </div>
 
-        <div class="col_half col_last entry_content ">
+        <div id="tab-tab5" class="tab_content clearfix">
 
-            <ul class="bottommargin">
+            <h3>Counseling and Results Outline</h3>
 
-                <li class="icon-ok">Flex Slider</li>
-                <li class="icon-ok">Flex Thumb Slider</li>
-                <li class="icon-ok">Elastic Slider</li>
-                <li class="icon-ok">Camera Slider</li>
-                <li class="icon-ok">Accordion Slider</li>
-                <li class="icon-ok">Image/Video Static</li>
+            <p>
+                Our consultants bring industry-specific knowledge to every project, which enables them to design the
+                best possible supply chain for your business. Together we can address the complexities of globalization
+                and sourcing changes, increased competition and international variations.
+            </p>
+            <blockquote class="topmargin"><p>At Nolan our experienced supply chain engineers use the most up-to-date
+                    practices and software to assess the effectiveness of your activities. Using our understanding of
+                    your sector and applying the latest systems and tools, we will optimize your supply chain and help
+                    you to design.</p></blockquote>
 
-            </ul>
+        </div>
+
+        <div id="tab-tab6" class="tab_content clearfix">
+
+            <h3>2 main Layouts.</h3>
+
+            <h6><span>Wide </span>Layout</h6>
+
+            <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+                Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Nullam
+                id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere
+                velit aliquet. Duis mollis, est non commodo luctus.</p>
+
+            <h6><span>Boxed </span>Layout</h6>
+
+            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus
+                posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed
+                consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
 
         </div>
 
     </div>
-
-    <div id="tab-tab4" class="tab_content clearfix">
-
-        <h3>Unlimited Colors.</h3>
-
-        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus
-            posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed
-            consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
-
-        <div class="quote quote-left">Duis mollis, est non commodo luctus</div>
-        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus
-            posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed
-            consectetur. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies
-            vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis,
-            est non commodo luctus. Duis mollis, est non commodo luctus. Donec sed odio dui. Nulla vitae elit
-            libero, a pharetra augue.</p>
-
-    </div>
-
-    <div id="tab-tab5" class="tab_content clearfix">
-
-        <h3>Bootstrap Components.</h3>
-
-        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus
-            posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed
-            consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
-        <blockquote class="topmargin"><p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur
-                est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis
-                mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec
-                ullamcorper nulla non metus auctor fringilla.</p></blockquote>
-
-    </div>
-
-    <div id="tab-tab6" class="tab_content clearfix">
-
-        <h3>2 main Layouts.</h3>
-
-        <h6><span>Wide </span>Layout</h6>
-
-        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
-            Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Nullam
-            id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere
-            velit aliquet. Duis mollis, est non commodo luctus.</p>
-
-        <h6><span>Boxed </span>Layout</h6>
-
-        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus
-            posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed
-            consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
-
-    </div>
-
-</div>
 
 </div>
 

@@ -58,7 +58,7 @@
 
 <div class="sticky-logo">
 
-    <a href="index.html"><img src="images/stickylogo.png" alt="CoWorker" title="CoWorker" /></a>
+    <a href="<?php echo base_url('/'); ?>"><img src="images/stickylogo.png" alt="CoWorker" title="CoWorker" /></a>
 
 </div>
 
@@ -67,22 +67,22 @@
 
 <ul>
 
-<li class="current"><a href="<?php echo base_url('/'); ?>"><div>Home</div><span>Let's Start here</span></a></li>
-<li class=""><a href="<?php echo base_url('about'); ?>"><div>About Us</div><span>Something About Us</span></a></li>
-<li><a href="<?php echo base_url('services'); ?>"><div>Services</div><span>Out of the Box</span></a>
+<li class="<?php if($active=="home"){echo "current";} ?>"><a href="<?php echo base_url('/'); ?>"><div>Home</div><span>Let's Start here</span></a></li>
+<li class="<?php if($active=="about"){echo "current";} ?>"><a href="<?php echo base_url('about'); ?>"><div>About Us</div><span>Something About Us</span></a></li>
+<li class="<?php if($active=="services"){echo "current";} ?>"><a href="<?php echo base_url('services/ocean'); ?>"><div>Services</div><span>Out of the Box</span></a>
 
     <ul>
 
-        <li><a href="#"><div><i class="icon-anchor"></i> Ocean Freights</div></a></li>
-        <li><a href="#"><div><i class="icon-plane"></i> Air Freights</div></a></li>
-        <li><a href="#"><div><i class="icon-truck"></i> Logistic Solutions</div></a></li>
+        <li class="<?php if($active=="services"){echo "current";} ?>"><a href="<?php echo base_url('services/ocean'); ?>"><div><i class="icon-anchor"></i> Ocean Freights</div></a></li>
+        <li class="<?php if($active=="services"){echo "current";} ?>"><a href="<?php echo base_url('services/air'); ?>"><div><i class="icon-plane"></i> Air Freights</div></a></li>
+        <li class="<?php if($active=="services"){echo "current";} ?>"><a href="<?php echo base_url('services/logistics'); ?>"><div><i class="icon-truck"></i> Logistic Solutions</div></a></li>
 
 
     </ul>
 
 </li>
 
-<li><a href="contact.html"><div>Contact</div><span>Get in Touch</span></a></li>
+<li class="<?php if($active=="contact"){echo "current";} ?>"><a href="<?php echo base_url('contact'); ?>"><div>Contact</div><span>Get in Touch</span></a></li>
 
 </ul>
 
@@ -132,8 +132,8 @@
 
 <div id="logo">
 
-    <a href="index.html" class="standard-logo"><img src="images/logo.png" alt="CoWorker" title="CoWorker" /></a>
-    <a href="index.html" class="retina-logo"><img src="images/logo_2x.png" alt="CoWorker" title="CoWorker" width="204" height="120" /></a>
+    <a href="<?php echo base_url('/'); ?>" class="standard-logo"><img src="images/logo.png" alt="CoWorker" title="CoWorker" /></a>
+    <a href="<?php echo base_url('/'); ?>" class="retina-logo"><img src="images/logo_2x.png" alt="CoWorker" title="CoWorker" width="204" height="120" /></a>
 
 </div>
 
@@ -145,22 +145,22 @@
 
 <ul id="main-menu">
 
-<li class="current"><a href="<?php echo base_url('/'); ?>"><div>Home</div><span>Let's Start here</span></a></li>
-<li class=""><a href="<?php echo base_url('about'); ?>"><div>About Us</div><span>Something About Us</span></a></li>
-<li><a href="<?php echo base_url('services'); ?>"><div>Services</div><span>Out of the Box</span></a>
+<li class="<?php if($active=="home"){echo "current";} ?>"><a href="<?php echo base_url('/'); ?>"><div>Home</div><span>Let's Start here</span></a></li>
+<li class="<?php if($active=="about"){echo "current";} ?>"><a href="<?php echo base_url('about'); ?>"><div>About Us</div><span>Something About Us</span></a></li>
+<li class="<?php if($active=="services"){echo "current";} ?>"><a href="<?php echo base_url('services/ocean'); ?>"><div>Services</div><span>Out of the Box</span></a>
 
     <ul>
 
-        <li><a href="<?php echo base_url('services/ocean'); ?>"><div><i class="icon-anchor"></i> Ocean Freight</div></a></li>
-        <li><a href="<?php echo base_url('services/air'); ?>"><div><i class="icon-plane"></i> Air Freight</div></a></li>
-        <li><a href="<?php echo base_url('services/logistics'); ?>"><div><i class="icon-truck"></i> Logistic Solutions</div></a></li>
+        <li class="<?php if($active=="services"){echo "current";} ?>"><a href="<?php echo base_url('services/ocean'); ?>"><div><i class="icon-anchor"></i> Ocean Freight</div></a></li>
+        <li class="<?php if($active=="services"){echo "current";} ?>"><a href="<?php echo base_url('services/air'); ?>"><div><i class="icon-plane"></i> Air Freight</div></a></li>
+        <li class="<?php if($active=="services"){echo "current";} ?>"><a href="<?php echo base_url('services/logistics'); ?>"><div><i class="icon-truck"></i> Logistic Solutions</div></a></li>
 
 
     </ul>
 
 </li>
 
-<li><a href="<?php echo base_url('contact'); ?>"><div>Contact</div><span>Get in Touch</span></a></li>
+<li class="<?php if($active=="contact"){echo "current";} ?>"><a href="<?php echo base_url('contact'); ?>"><div>Contact</div><span>Get in Touch</span></a></li>
 
 </ul>
 
@@ -216,7 +216,7 @@
                     <h4 class="widget-title">Quick Links</h4>
 
                     
-                    <ul>
+                    <ul style="margin-left: 0px">
 
                         <li><a href="<?php echo base_url('/'); ?>">Home</a></li>
                         <li><a href="<?php echo base_url('about'); ?>">About Us</a></li>
