@@ -6405,3 +6405,8 @@ a.twitter-follow-me:hover,
 .justify{
     text-align: justify;
 }
+/*blurred background*/
+.bb{
+    background-image: url("../../assets/images/bb.jpg");
+    background-repeat: no-repeat;
+}
