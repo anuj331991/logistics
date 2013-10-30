@@ -6410,3 +6410,11 @@ a.twitter-follow-me:hover,
     background-image: url("../../assets/images/bb.jpg");
     background-repeat: no-repeat;
 }
+.contact-us-errors{
+    display: block;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    color: #BD091B;
+    margin-bottom: 15px;
+}
