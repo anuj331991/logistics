@@ -1613,7 +1613,7 @@ html[xmlns] .slider-wrap {display: block;}
     width: 36px !important;
     height: 36px !important;
     text-indent: -9999px;
-    background: url("images/icons/slider-nav.png") no-repeat 0 0;
+    background: url("../../assets/images/icons/slider-nav.png") no-repeat 0 0;
     background-color: #111;
     background-color: rgba(11,11,11,0.8);
     transition: background-color .2s linear;
@@ -6405,11 +6405,8 @@ a.twitter-follow-me:hover,
 .justify{
     text-align: justify;
 }
-.contact-us-errors{
-    display: block;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 11px;
-    color: #BD091B;
-    margin-bottom: 15px;
+/*blurred background*/
+.bb{
+    background-image: url("../../assets/images/bb.jpg");
+    background-repeat: no-repeat;
 }
