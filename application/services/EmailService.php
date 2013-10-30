@@ -27,7 +27,7 @@ class EmailService
 
             $ci->email->from('keshavashta16@gmail.com', 'Blabla');
             $ci->email->to($email, $name);
-            $this->email->reply_to('keshavashta16@gmail.com', 'Keshav Ashta');
+
             $ci->email->subject($subject);
             $ci->email->message($message);
             $ci->email->send();
