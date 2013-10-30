@@ -57,8 +57,8 @@
 
         <div class="sticky-logo">
 
-            <a href="<?php echo base_url('/'); ?>"><img src="images/stickylogo.png" alt="CoWorker"
-                                                        title="CoWorker"/></a>
+            <a href="<?php echo base_url('/'); ?>"><img src="images/stickylogo.png" alt=""
+                                                        title=""/></a>
 
         </div>
 
@@ -157,7 +157,7 @@
                         <div class="ts-icon"></div>
                         <div class="ts-text">+91.33.26789234</div>
                     </a></li>
-                <li class="ts-mail"><a href="mailto:coworker@abc.com" style="background-color: #1fd36f">
+                <li class="ts-mail"><a href="" style="background-color: #1fd36f">
                         <div class="ts-icon"></div>
                         <div class="ts-text">coworker@abc.com</div>
                     </a></li>
@@ -179,10 +179,10 @@
 
         <div id="logo">
 
-            <a href="<?php echo base_url('/'); ?>" class="standard-logo"><img src="images/logo.png" alt="CoWorker"
-                                                                              title="CoWorker"/></a>
-            <a href="<?php echo base_url('/'); ?>" class="retina-logo"><img src="images/logo_2x.png" alt="CoWorker"
-                                                                            title="CoWorker" width="204" height="120"/></a>
+            <a href="<?php echo base_url('/'); ?>" class="standard-logo"><img src="images/logo.png" alt=""
+                                                                              title=""/></a>
+            <a href="<?php echo base_url('/'); ?>" class="retina-logo"><img src="images/logo_2x.png" alt=""
+                                                                            title="" width="204" height="120"/></a>
 
         </div>
 
