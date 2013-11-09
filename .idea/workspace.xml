@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ec1f2bbe-8324-403f-9372-49b045f1d9b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/about_us.php" afterPath="$PROJECT_DIR$/application/views/about_us.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/contact_us.php" afterPath="$PROJECT_DIR$/application/views/contact_us.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/layouts/default.php" afterPath="$PROJECT_DIR$/application/views/layouts/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/home.php" afterPath="$PROJECT_DIR$/application/views/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/ocean.php" afterPath="$PROJECT_DIR$/application/views/ocean.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="logistics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +16,7 @@
     <file path="/index.html" changelist="ec1f2bbe-8324-403f-9372-49b045f1d9b9" time="1382982440973" ignored="false" />
     <file path="/autoload.php" changelist="ec1f2bbe-8324-403f-9372-49b045f1d9b9" time="1383154002004" ignored="false" />
     <file path="/test.php" changelist="ec1f2bbe-8324-403f-9372-49b045f1d9b9" time="1383156041698" ignored="false" />
-    <file path="/about_us.php" changelist="ec1f2bbe-8324-403f-9372-49b045f1d9b9" time="1383241126950" ignored="false" />
+    <file path="/about_us.php" changelist="ec1f2bbe-8324-403f-9372-49b045f1d9b9" time="1384017146447" ignored="false" />
     <file path="/contact_us.php" changelist="ec1f2bbe-8324-403f-9372-49b045f1d9b9" time="1384015801107" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +46,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_us.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="about_us.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/about_us.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="277" column="102" selection-start="8258" selection-end="8258" vertical-scroll-proportion="-119.53846">
+            <state line="237" column="24" selection-start="8080" selection-end="8080" vertical-scroll-proportion="0.7037773">
               <folding>
+                <element signature="n#style#0;n#a#0;n#small#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -74,7 +70,7 @@
       <file leaf-file-name="contact_us.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/contact_us.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="44" selection-start="841" selection-end="841" vertical-scroll-proportion="-11.346154">
+            <state line="31" column="72" selection-start="649" selection-end="699" vertical-scroll-proportion="-8.5">
               <folding>
                 <marker date="1384016395856" expanded="false" signature="929:942" placeholder="..." />
                 <marker date="1384016395856" expanded="false" signature="984:1004" placeholder="..." />
@@ -127,10 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/layouts/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="68" selection-start="6168" selection-end="6168" vertical-scroll-proportion="0.36580518">
+            <state line="161" column="68" selection-start="6168" selection-end="6168" vertical-scroll-proportion="-7.076923">
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -178,11 +174,11 @@
         <option value="$PROJECT_DIR$/application/services/EmailService.php" />
         <option value="$PROJECT_DIR$/application/controllers/test.php" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/application/views/about_us.php" />
         <option value="$PROJECT_DIR$/application/views/home.php" />
         <option value="$PROJECT_DIR$/application/views/ocean.php" />
         <option value="$PROJECT_DIR$/application/views/contact_us.php" />
         <option value="$PROJECT_DIR$/application/views/layouts/default.php" />
+        <option value="$PROJECT_DIR$/application/views/about_us.php" />
       </list>
     </option>
   </component>
@@ -653,15 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/about_us.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="102" selection-start="8258" selection-end="8258" vertical-scroll-proportion="-119.53846">
-          <folding>
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/air.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="30" selection-start="1558" selection-end="1560" vertical-scroll-proportion="-5.54902">
@@ -705,9 +692,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layouts/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="68" selection-start="6168" selection-end="6168" vertical-scroll-proportion="-7.076923">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/contact_us.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="44" selection-start="841" selection-end="841" vertical-scroll-proportion="-11.346154">
+        <state line="31" column="72" selection-start="649" selection-end="699" vertical-scroll-proportion="-8.5">
           <folding>
             <marker date="1384016395856" expanded="false" signature="929:942" placeholder="..." />
             <marker date="1384016395856" expanded="false" signature="984:1004" placeholder="..." />
@@ -715,15 +715,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/layouts/default.php">
+    <entry file="file://$PROJECT_DIR$/application/views/about_us.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="68" selection-start="6168" selection-end="6168" vertical-scroll-proportion="0.36580518">
+        <state line="237" column="24" selection-start="8080" selection-end="8080" vertical-scroll-proportion="0.7037773">
           <folding>
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#small#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -84,7 +84,8 @@
         </div>
 
         <div class="acctitle">What we do?</div>
-        <div class="acc_content clearfix">At Asian Logistics, we are committed to delivering Operational Excellence to our
+        <div class="acc_content clearfix">At Asian Logistics, we are committed to delivering Operational Excellence to
+            our
             customers, each and every day. As a truly global and richly diverse organization, we work as one integrated
             team. We focus on further growing our business by offering world-class supply chain services to our
             customers and developing our business to support theirs. These are some of the ways we help make business
@@ -104,7 +105,8 @@
         </div>
 
         <div class="acctitle">Why you choose our Company?</div>
-        <div class="acc_content clearfix">We at Asian Logistics are committed to provide smooth services. We guarantee of
+        <div class="acc_content clearfix">We at Asian Logistics are committed to provide smooth services. We guarantee
+            of
             security & Punctuality on the worldwide routes. We turn transportation into a business advantage for our
             ever progressing clients by delivering value added services that equip them to do effective logistic
             planning & optimize their profit
@@ -222,23 +224,27 @@
             <div id="tab-tab3" class="tab_content clearfix">
                 <div class="col_two_fifth nobottommargin">
 
-                    <iframe class="img-polaroid" width="100%" height="155" frameborder="0" scrolling="no"
-                            marginheight="0" marginwidth="0"
-                            src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=envato&amp;aq=&amp;sll=22.612365,88.378443&amp;sspn=0.013371,0.026157&amp;t=m&amp;ie=UTF8&amp;hq=envato&amp;ll=-37.817941,144.964977&amp;spn=0.017629,0.032015&amp;output=embed"></iframe>
-
+                    <iframe width="100%" height="155" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                            src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=K-BLOCK+Mahipalpur+Extension+Vasantkunj,+New+Delhi&amp;aq=&amp;sll=28.54159,77.126944&amp;sspn=0.01148,0.021136&amp;ie=UTF8&amp;hq=&amp;hnear=Mahipal+Pur+Extension,+Indira+Gandhi+International+Airport,+New+Delhi,+South+West+Delhi,+Delhi+110037&amp;ll=28.54159,77.126942&amp;spn=0.011479,0.021136&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+                    <br/>
+                    <small><a
+                            href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=K-BLOCK+Mahipalpur+Extension+Vasantkunj,+New+Delhi&amp;aq=&amp;sll=28.54159,77.126944&amp;sspn=0.01148,0.021136&amp;ie=UTF8&amp;hq=&amp;hnear=Mahipal+Pur+Extension,+Indira+Gandhi+International+Airport,+New+Delhi,+South+West+Delhi,+Delhi+110037&amp;ll=28.54159,77.126942&amp;spn=0.011479,0.021136&amp;t=m&amp;z=14"
+                            style="color:#0000FF;text-align:left">View Larger Map</a></small>
                 </div>
 
                 <div class="col_three_fifth col_last">
 
+
+                    <br>
                     You can easily locate us at:
 
                     <ul class="nobottommargin">
 
-                        <li class="icon-map-marker">46-AB Tingira Street <br>Smith Tower,Port Smith,QLD-4870<br>
-                            Australia
+                        <li class="icon-map-marker">Khasra No.831,K-BLOCK <br/>Kole Wali Gali,Mahipalpur Extn<br/>
+                            VastantKunj Road, New Delhi-37
                         </li>
 
-                        <li class="icon-envelope-alt">Asian Logistics@gmail.com</li>
+                        <li class="icon-envelope-alt">asianlogistics@gmail.com</li>
 
                     </ul>
 
