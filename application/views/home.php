@@ -127,9 +127,9 @@
 
     <div class="promo-desc">
 
-        <h3><span>Nolan</span> Updates Code of Business Ethics and Conduct</h3>
+        <h3><span>Asian Logistics</span> Updates Code of Business Ethics and Conduct</h3>
 
-        <span>Nolan logistics is leading name in integrated Global Logistics Services with efficient time bound services.</span>
+        <span>Asian Logistics logistics is leading name in integrated Global Logistics Services with efficient time bound services.</span>
 
     </div>
 
@@ -150,7 +150,7 @@
         <h3>Ocean Freight</h3>
 
         <p>When you have Ocean Freight experts matching incessant sailings and adaptable administration to
-            your particular business goals, you have one name Nolan</p></div>
+            your particular business goals, you have one name Asian Logistics</p></div>
 </div>
 
 <div class="col_one_third">
@@ -159,7 +159,7 @@
         <h3>Air Freight</h3>
 
         <p>When you have an experienced team of Air Freight specialists delivering on your daily priorities for time,
-            space, frequency and cost, you have one name Nolan.</p></div>
+            space, frequency and cost, you have one name Asian Logistics.</p></div>
 </div>
 
 <div class="col_one_third col_last">
@@ -168,7 +168,7 @@
         <h3>Logistic Solutions</h3>
 
         <p>When you have a committed logistics partner planning and implementing a supply chain solution tailored to
-            your specific needs, you have one name Nolan.</p></div>
+            your specific needs, you have one name Asian Logistics.</p></div>
 </div>
 <!--services row end here-->
 
@@ -236,7 +236,7 @@
 
             <h3>Store Network Visibility</h3>
 
-            <p>The proprietary Nolan platform provides you with a common space to connect all parties along
+            <p>The proprietary Asian Logistics platform provides you with a common space to connect all parties along
                 the supply chains, allowing for the consolidation and compilation of various monitoring channels to
                 create a win-win situation for all stakeholders.
             </p>
@@ -274,7 +274,7 @@
 
             <h3>High Class Solutions</h3>
 
-            <p>When you need end-to-end support from your logistics partner, Nolan can deliver the complete service.</p>
+            <p>When you need end-to-end support from your logistics partner, Asian Logistics can deliver the complete service.</p>
             <ul>Global End to End supply chain management for:
                 <li class="icon-caret-right">finished goods</li>
                 <li class="icon-caret-right">inbound to production and spare parts.</li>
@@ -283,7 +283,7 @@
             <p>
                 Globalized supply chains are always complex. With complexity comes risk – and with risk comes cost.
 
-                Nolan has developed the Smart End to End concept to reduce both risk and cost. It makes your supply
+                Asian Logistics has developed the Smart End to End concept to reduce both risk and cost. It makes your supply
                 chain more efficient from end to end – which means a positive impact on your balance sheet.
             </p>
         </div>
@@ -297,7 +297,7 @@
                 best possible supply chain for your business. Together we can address the complexities of globalization
                 and sourcing changes, increased competition and international variations.
             </p>
-            <blockquote class="topmargin"><p>At Nolan our experienced supply chain engineers use the most up-to-date
+            <blockquote class="topmargin"><p>At Asian Logistics our experienced supply chain engineers use the most up-to-date
                     practices and software to assess the effectiveness of your activities. Using our understanding of
                     your sector and applying the latest systems and tools, we will optimize your supply chain and help
                     you to design.</p></blockquote>

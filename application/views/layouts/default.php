@@ -159,7 +159,7 @@
                     </a></li>
                 <li class="ts-mail"><a href="" style="background-color: #1fd36f">
                         <div class="ts-icon"></div>
-                        <div class="ts-text">coworker@abc.com</div>
+                        <div class="ts-text">info@asianlogistics.com</div>
                     </a></li>
 
             </ul>
@@ -271,9 +271,11 @@
                 <div class="widget portfolio-widget clearfix">
 
 
-                    <h4>About <span>Co</span>Worker</h4>
+                    <h4>About <span>Asian Logistics</span></h4>
 
-                    <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh.</p>
+                    <p>Asian Logistics specializes in Real Time Supply chain System. We
+                        understand your exact needs as a Customer and what it takes to effectively support your Business in
+                        terms of Efficient and on time Shipments.</p>
 
 
                 </div>
@@ -317,9 +319,9 @@
                     <br>
                     <ul>
 
-                        <li class="icon-map-marker">13/2 Elizabeth Street <br/>Melbourne VIC 3000<br/> Australia</li>
+                        <li class="icon-map-marker">Khasra No.831,K-BLOCK <br/>Kole Wali Gali,Mahipalpur Extn<br/> VastantKunj Road, New Delhi-37</li>
                         <li class="icon-phone">+91-22-21144113</li>
-                        <li class="icon-envelope-alt">info@coworker.com</li>
+                        <li class="icon-envelope-alt">info@asianlogistics.com</li>
 
                     </ul>
 
@@ -380,7 +382,7 @@
 
         <div class="col_half">
 
-            Copyrights &copy; <?php echo date("Y"); ?> &amp; All Rights Reserved Nolan
+            Copyrights &copy; <?php echo date("Y"); ?> &amp; All Rights Reserved Asian Logistics
 
         </div>
 

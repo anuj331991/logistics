@@ -76,15 +76,15 @@
             </ul>
         </div>
 
-        <div class="acctitle">Why Nolan?</div>
-        <div class="acc_content clearfix">Nolan specializes in Real Time Supply chain System. We
+        <div class="acctitle">Why Asian Logistics?</div>
+        <div class="acc_content clearfix">Asian Logistics specializes in Real Time Supply chain System. We
             understand your exact needs as a Customer and what it takes to effectively support your Business in
             terms of Efficient and on time Shipments. The processes we've developed are based on the
             Architecture of “Always-On-Time” services which you can always rely on.
         </div>
 
         <div class="acctitle">What we do?</div>
-        <div class="acc_content clearfix">At Nolan, we are committed to delivering Operational Excellence to our
+        <div class="acc_content clearfix">At Asian Logistics, we are committed to delivering Operational Excellence to our
             customers, each and every day. As a truly global and richly diverse organization, we work as one integrated
             team. We focus on further growing our business by offering world-class supply chain services to our
             customers and developing our business to support theirs. These are some of the ways we help make business
@@ -104,7 +104,7 @@
         </div>
 
         <div class="acctitle">Why you choose our Company?</div>
-        <div class="acc_content clearfix">We at Nolan are committed to provide smooth services. We guarantee of
+        <div class="acc_content clearfix">We at Asian Logistics are committed to provide smooth services. We guarantee of
             security & Punctuality on the worldwide routes. We turn transportation into a business advantage for our
             ever progressing clients by delivering value added services that equip them to do effective logistic
             planning & optimize their profit
@@ -238,7 +238,7 @@
                             Australia
                         </li>
 
-                        <li class="icon-envelope-alt">nolan@gmail.com</li>
+                        <li class="icon-envelope-alt">Asian Logistics@gmail.com</li>
 
                     </ul>
 
@@ -275,7 +275,7 @@
 
     <div class="promo-desc">
 
-        <h3>Call us today at <span>+91.22.57412541</span> or Email us at <span>support@nolan.com</span></h3>
+        <h3>Call us today at <span>+91.22.57412541</span> or Email us at <span>support@Asian Logistics.com</span></h3>
 
         <span>We strive to provide our customers with Top Notch Support to make their Experience Wonderful</span>
 

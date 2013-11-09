@@ -29,12 +29,12 @@
 
         $('#google-map').gMap({
 
-            address: 'Melbourne, Australia',
+            address: 'K-BLOCK Mahipalpur Extension Vasantkunj, New Delhi',
             maptype: 'ROADMAP',
             zoom: 14,
             markers: [
                 {
-                    address: "Melbourne, Australia",
+                    address: "Khasra No.831 Mahipalpur Extn,VastantKunj Road, New Delhi-37",
                     html: '<div style="width: 300px;">' +
                         '<h3 style="padding-bottom: 8px;">Hi, we\'re <span>Envato</span></h3>' +
                         '<p class="nobottommargin">Our mission is to help people to <strong>earn</strong> and to ' +
@@ -163,19 +163,19 @@
 
                         <h3>Our Headquarters</h3>
 
-                        <p>13/2 Elizabeth Street <br/>Melbourne VIC 3000<br/> Australia</p></div>
+                        <p>Khasra No.831,K-BLOCK <br/>Kole Wali Gali,Mahipalpur Extn<br/> VastantKunj Road, New Delhi-37</p></div>
 
                     <div class="product-feature"><span class="icon-phone"></span>
 
-                        <h3>Call us Toll Free</h3>
+                        <h3>Call us:</h3>
 
-                        <p>1800-CO-WORKER <br/>1800-3322-4453</p></div>
+                        <p>1800-3322-4453</p></div>
 
                     <div class="product-feature"><span class="icon-envelope-alt"></span>
 
                         <h3>Email Addresses</h3>
 
-                        <p>info@coworker.com <br/>sales@coworker.com</p></div>
+                        <p>info@asianlogistics.com <br/>sales@asianlogistics.com</p></div>
 
                     <div class="product-feature"><span class="icon-heart-empty"></span>
 
