@@ -32,4 +32,29 @@ class Services extends CI_Controller
         $data['active'] = "services";
         $this->template->build('logistics', $data);
     }
+
+    function custom()
+    {
+        $data['active'] = "services";
+        $this->template->build('custom', $data);
+
+    }
+
+    function doortodoor()
+    {
+        $data['active'] = "services";
+        $this->template->build('doortodoor', $data);
+    }
+
+    function warehousing()
+    {
+        $data['active'] = "services";
+        $this->template->build('warehousing', $data);
+    }
+
+    function landtransport()
+    {
+        $data['active'] = "services";
+        $this->template->build('landtransport', $data);
+    }
 }

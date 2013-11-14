@@ -57,7 +57,7 @@
 
         <div class="sticky-logo">
 
-            <a href="<?php echo base_url('/'); ?>"><img src="images/stickylogo.png" alt=""
+            <a href="<?php echo base_url('/'); ?>"><img src="<?php echo base_url('assets/images/stickylogo.png'); ?>" alt=""
                                                         title=""/></a>
 
         </div>
@@ -79,30 +79,11 @@
                         <span>Something About Us</span></a></li>
                 <li class="<?php if ($active == "services") {
                     echo "current";
-                } ?>"><a href="<?php echo base_url('services/ocean'); ?>">
+                } ?>"><a href="<?php echo base_url('services'); ?>">
                         <div>Services</div>
                         <span>Out of the Box</span></a>
 
-                    <ul>
 
-                        <li class="<?php if ($active == "services") {
-                            echo "current";
-                        } ?>"><a href="<?php echo base_url('services/ocean'); ?>">
-                                <div><i class="icon-anchor"></i> Ocean Freights</div>
-                            </a></li>
-                        <li class="<?php if ($active == "services") {
-                            echo "current";
-                        } ?>"><a href="<?php echo base_url('services/air'); ?>">
-                                <div><i class="icon-plane"></i> Air Freights</div>
-                            </a></li>
-                        <li class="<?php if ($active == "services") {
-                            echo "current";
-                        } ?>"><a href="<?php echo base_url('services/logistics'); ?>">
-                                <div><i class="icon-truck"></i> Logistic Solutions</div>
-                            </a></li>
-
-
-                    </ul>
 
                 </li>
 
@@ -177,11 +158,11 @@
     <div class="container clearfix">
 
 
-        <div id="logo">
+        <div id="logo" style="max-width: 0px">
 
-            <a href="<?php echo base_url('/'); ?>" class="standard-logo"><img src="images/logo.png" alt=""
+            <a href="<?php echo base_url('/'); ?>" class="standard-logo"><img src="<?php echo base_url('assets/images/logo.png'); ?>" alt=""
                                                                               title=""/></a>
-            <a href="<?php echo base_url('/'); ?>" class="retina-logo"><img src="images/logo_2x.png" alt=""
+            <a href="<?php echo base_url('/'); ?>" class="retina-logo"><img src="<?php echo base_url('assets/images/logo_2x.png'); ?>" alt=""
                                                                             title="" width="204" height="120"/></a>
 
         </div>
@@ -206,30 +187,11 @@
                         <span>Something About Us</span></a></li>
                 <li class="<?php if ($active == "services") {
                     echo "current";
-                } ?>"><a href="<?php echo base_url('services/ocean'); ?>">
+                } ?>"><a href="<?php echo base_url('services'); ?>">
                         <div>Services</div>
                         <span>Out of the Box</span></a>
 
-                    <ul>
 
-                        <li class="<?php if ($active == "services") {
-                            echo "current";
-                        } ?>"><a href="<?php echo base_url('services/ocean'); ?>">
-                                <div><i class="icon-anchor"></i> Ocean Freight</div>
-                            </a></li>
-                        <li class="<?php if ($active == "services") {
-                            echo "current";
-                        } ?>"><a href="<?php echo base_url('services/air'); ?>">
-                                <div><i class="icon-plane"></i> Air Freight</div>
-                            </a></li>
-                        <li class="<?php if ($active == "services") {
-                            echo "current";
-                        } ?>"><a href="<?php echo base_url('services/logistics'); ?>">
-                                <div><i class="icon-truck"></i> Logistic Solutions</div>
-                            </a></li>
-
-
-                    </ul>
 
                 </li>
 
@@ -271,9 +233,9 @@
                 <div class="widget portfolio-widget clearfix">
 
 
-                    <h4>About <span>Asian Logistics</span></h4>
+                    <h4>About <span>Asian Logistic Solutions</span></h4>
 
-                    <p>Asian Logistics specializes in Real Time Supply chain System. We
+                    <p>Asian Logistic Solutions specializes in Real Time Supply chain System. We
                         understand your exact needs as a Customer and what it takes to effectively support your Business in
                         terms of Efficient and on time Shipments.</p>
 
@@ -382,7 +344,7 @@
 
         <div class="col_half">
 
-            Copyrights &copy; <?php echo date("Y"); ?> &amp; All Rights Reserved Asian Logistics
+            Copyrights &copy; <?php echo date("Y"); ?> &amp; All Rights Reserved Asian Logistic Solutions
 
         </div>
 

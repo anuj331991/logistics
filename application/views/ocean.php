@@ -55,7 +55,7 @@
                 <p>
                     Whether you're shipping dangerous materials, hazardous materials or tons of heavy equipment,
                     whatever your shipping needs, you need a first class cargo company that's dependable, cost
-                    efficient, well equipped and professional. We at Asian Logistics can ship door to door your
+                    efficient, well equipped and professional. We at Asian Logistic Solutions can ship door to door your
                     hazardous goods or dangerous goods such as flammable liquids, paint, lacquer, solvents, corrosive
                     materials, compressed gases, and other controlled items safe and on time.
                 </p>
