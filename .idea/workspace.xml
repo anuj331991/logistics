@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec1f2bbe-8324-403f-9372-49b045f1d9b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/custom.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/doortodoor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/landtransport.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/warehousing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/logo.png" afterPath="$PROJECT_DIR$/assets/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/logo_2x.png" afterPath="$PROJECT_DIR$/assets/images/logo_2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/stickylogo.png" afterPath="$PROJECT_DIR$/assets/images/stickylogo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/about_us.php" afterPath="$PROJECT_DIR$/application/views/about_us.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/layouts/default.php" afterPath="$PROJECT_DIR$/application/views/layouts/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/home.php" afterPath="$PROJECT_DIR$/application/views/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/ocean.php" afterPath="$PROJECT_DIR$/application/views/ocean.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/services.php" afterPath="$PROJECT_DIR$/application/controllers/services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/services.php" afterPath="$PROJECT_DIR$/application/views/services.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="logistics.iws" />
@@ -539,7 +526,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
