@@ -11,10 +11,6 @@ class Contact extends CI_Controller
 
     function index()
     {
-        $this->load->helper(array('form', 'url'));
-        $this->load->library('session');
-        $this->load->library('form_validation');
-
         $this->form_validation->set_rules('name', 'Name', 'required');
         $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
         $this->form_validation->set_rules('subject', 'Subject', 'required');
@@ -34,7 +30,7 @@ class Contact extends CI_Controller
                 $this->session->set_flashdata('formMessage', 'Thanks for querying with us, will contact you shortly');
                 redirect(current_url());
             } catch (Exception $e) {
-                $data['formMessage'] = "Internal Server Error";
+                $data['errorMessage'] = "Internal Server Error.";
             }
         }
         $this->template->build('contact_us', $data);

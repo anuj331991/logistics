@@ -11,10 +11,6 @@ class Feedback extends CI_Controller
 
     function index()
     {
-        $this->load->helper(array('form', 'url'));
-        $this->load->library('session');
-        $this->load->library('form_validation');
-
         $this->form_validation->set_rules('name', 'Name', 'required');
         $this->form_validation->set_rules('feedbackType', 'Feedback Type', 'required');
         $this->form_validation->set_rules('feedbackCategory', 'Feedback Category', 'required');
@@ -23,8 +19,6 @@ class Feedback extends CI_Controller
         $this->form_validation->set_rules('comment', 'Comment', 'required');
         $data['active'] = "feedback";
         if ($this->form_validation->run() == FALSE) {
-
-
         } else {
 
             try {
@@ -41,11 +35,10 @@ class Feedback extends CI_Controller
                     "<br/>Name: $name" . "<br/> Email: $email" . "<br/>Telephone" . $telephone .
                     "<br/>Comment: $comment" . '<br/>Address : ' . $address;
                 $this->sendEmail("Asia logistic", "info@asianlogistic.com", $subject, $full_message);
-                $this->sendEmail("Asia logistic", "info@asianlogistic.com", $subject, $full_message);
                 $this->session->set_flashdata('formMessage', 'Thanks for querying with us, will contact you shortly');
                 redirect(current_url());
             } catch (Exception $e) {
-                $data['formMessage'] = "Internal Server Error";
+                $data['errorMessage'] = "Internal Server Error.";
             }
         }
         $this->template->build('feedback', $data);

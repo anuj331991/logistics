@@ -83,7 +83,12 @@
                             <?php echo $formMessage; ?>
                         </div>
                     <?php endif; ?>
+                    <?php if (isset($errorMessage)) : ?>
 
+                        <div class="alert-danger alert">
+                            <?php echo $errorMessage; ?>
+                        </div>
+                    <?php endif; ?>
                     <form class="nobottommargin" id="contactForm" name="template-contactform"
                           action="<?php echo base_url('/contact') ?>" method="post">
 
