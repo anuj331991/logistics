@@ -31,9 +31,10 @@
                     <h2>Send us an <span>Email</span></h2>
 
                     <div id="feedback-form-result"></div>
-                    <?php if (isset($formMessage)) : ?>
+                    <?php $formMessage = $this->session->flashdata('formMessage');
+                    if (!empty($formMessage)) : ?>
 
-                        <div>
+                        <div class="alert-success alert">
                             <?php echo $formMessage; ?>
                         </div>
                     <?php endif; ?>
@@ -117,7 +118,7 @@
 
                 <script type="text/javascript">
 
-                    $("#feedbackFor").validate();
+                    $("#feedbackForm").validate();
                     $('.cfInput').keyup(function () {
                         var className = $(this).data('error_class');
                         $('#' + className).hide();

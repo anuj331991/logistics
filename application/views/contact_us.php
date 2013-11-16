@@ -75,12 +75,13 @@
 
                     <h2>Send us an <span>Email</span></h2>
 
-                    <div id="contact-form-result"></div>
-                    <?php if (isset($formMessage)) : ?>
+                    <div id="contact-form-result" ></div>
+                    <?php $formMessage = $this->session->flashdata('formMessage');
+                    if (!empty($formMessage)) : ?>
 
-                    <div>
-                        <?php echo $formMessage; ?>
-                    </div>
+                        <div class="alert-success alert">
+                            <?php echo $formMessage; ?>
+                        </div>
                     <?php endif; ?>
 
                     <form class="nobottommargin" id="contactForm" name="template-contactform"
@@ -163,7 +164,8 @@
 
                         <h3>Our Headquarters</h3>
 
-                        <p>Khasra No.831,K-BLOCK <br/>Kole Wali Gali,Mahipalpur Extn<br/> VastantKunj Road, New Delhi-37</p></div>
+                        <p>Khasra No.831,K-BLOCK <br/>Kole Wali Gali,Mahipalpur Extn<br/> VastantKunj Road, New Delhi-37
+                        </p></div>
 
                     <div class="product-feature"><span class="icon-phone"></span>
 

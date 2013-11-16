@@ -12,7 +12,7 @@ class Feedback extends CI_Controller
     function index()
     {
         $this->load->helper(array('form', 'url'));
-
+        $this->load->library('session');
         $this->load->library('form_validation');
 
         $this->form_validation->set_rules('name', 'Name', 'required');
@@ -21,12 +21,12 @@ class Feedback extends CI_Controller
         $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
         $this->form_validation->set_rules('telephone', 'Telephone', 'required');
         $this->form_validation->set_rules('comment', 'Comment', 'required');
-
+        $data['active'] = "feedback";
         if ($this->form_validation->run() == FALSE) {
-            $data['active'] = "contact";
+
 
         } else {
-            $data['active'] = "contact";
+
             try {
                 $name = $this->input->post('name');
                 $email = $this->input->post('email');
@@ -41,7 +41,9 @@ class Feedback extends CI_Controller
                     "<br/>Name: $name" . "<br/> Email: $email" . "<br/>Telephone" . $telephone .
                     "<br/>Comment: $comment" . '<br/>Address : ' . $address;
                 $this->sendEmail("Asia logistic", "info@asianlogistic.com", $subject, $full_message);
-                $data['formMessage'] = "Thanks for querying with us, will contact you shortly";
+                $this->sendEmail("Asia logistic", "info@asianlogistic.com", $subject, $full_message);
+                $this->session->set_flashdata('formMessage', 'Thanks for querying with us, will contact you shortly');
+                redirect(current_url());
             } catch (Exception $e) {
                 $data['formMessage'] = "Internal Server Error";
             }

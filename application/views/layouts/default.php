@@ -114,6 +114,8 @@
                 <li><span>/</span><a href="<?php echo base_url('service/ocean'); ?>">Service</a></li>
                 <li class="top-menu-em"><span>/</span><a href="<?php echo base_url('contact'); ?>"
                                                          style="opacity: 1;"><i class="icon-map-marker"></i> Contact Us</a>
+                <li class="top-menu-em"><span>/</span><a href="<?php echo base_url('feedback'); ?>"
+                                                         style="opacity: 1;"><i class="icon-envelope-alt"></i> Feedback</a>
                 </li>
 
             </ul>
@@ -200,6 +202,11 @@
                 } ?>"><a href="<?php echo base_url('contact'); ?>">
                         <div>Contact</div>
                         <span>Get in Touch</span></a></li>
+                <li class="<?php if ($active == "feedback") {
+                    echo "current";
+                } ?>"><a href="<?php echo base_url('feedback'); ?>">
+                        <div>Feedback</div>
+                        <span>Any Comments?</span></a></li>
 
             </ul>
 
@@ -261,6 +268,7 @@
                         <li><a href="<?php echo base_url('about'); ?>">About Us</a></li>
                         <li><a href="<?php echo base_url('services'); ?>">Services</a></li>
                         <li><a href="<?php echo base_url('contact'); ?>">Contact</a></li>
+                        <li><a href="<?php echo base_url('feedback'); ?>">Feedback</a></li>
 
                     </ul>
 

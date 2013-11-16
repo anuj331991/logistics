@@ -12,16 +12,16 @@ class Contact extends CI_Controller
     function index()
     {
         $this->load->helper(array('form', 'url'));
-
+        $this->load->library('session');
         $this->load->library('form_validation');
 
         $this->form_validation->set_rules('name', 'Name', 'required');
         $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
         $this->form_validation->set_rules('subject', 'Subject', 'required');
         $this->form_validation->set_rules('message', 'Message', 'required');
-
+        $data['active'] = "contact";
         if ($this->form_validation->run() == FALSE) {
-            $data['active'] = "contact";
+
 
         } else {
             try {
@@ -31,7 +31,8 @@ class Contact extends CI_Controller
                 $subject = $this->input->post('subject');
                 $full_message = "Name: $name" . "Email: $email" . "Message: $message" . 'Subject : ' . $subject;
                 $this->sendEmail("Asia logistic", "info@asianlogistic.com", $subject, $full_message);
-                $data['formMessage'] = "Thanks for querying with us, will contact you shortly";
+                $this->session->set_flashdata('formMessage', 'Thanks for querying with us, will contact you shortly');
+                redirect(current_url());
             } catch (Exception $e) {
                 $data['formMessage'] = "Internal Server Error";
             }
@@ -44,15 +45,15 @@ class Contact extends CI_Controller
         try {
             $ci = get_instance();
             $ci->load->library('email');
-            $config['protocol']='smtp';
-            $config['smtp_host']='ssl://smtp.googlemail.com';
-            $config['smtp_port']='465';
-            $config['smtp_timeout']='30';
-            $config['smtp_user']= 'testsmtp8@gmail.com';
-            $config['smtp_pass']='@sdf1234';
-            $config['charset']='utf-8';
-            $config['newline']="\r\n";
-            $config['mailtype']="html";
+            $config['protocol'] = 'smtp';
+            $config['smtp_host'] = 'ssl://smtp.googlemail.com';
+            $config['smtp_port'] = '465';
+            $config['smtp_timeout'] = '30';
+            $config['smtp_user'] = 'testsmtp8@gmail.com';
+            $config['smtp_pass'] = '@sdf1234';
+            $config['charset'] = 'utf-8';
+            $config['newline'] = "\r\n";
+            $config['mailtype'] = "html";
 
             $ci->email->initialize($config);
 
