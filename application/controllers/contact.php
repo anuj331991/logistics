@@ -39,26 +39,9 @@ class Contact extends CI_Controller
     private function  sendEmail($name, $email, $subject, $message)
     {
         try {
-            $ci = get_instance();
-            $ci->load->library('email');
-            $config['protocol'] = 'smtp';
-            $config['smtp_host'] = 'ssl://smtp.googlemail.com';
-            $config['smtp_port'] = '465';
-            $config['smtp_timeout'] = '30';
-            $config['smtp_user'] = 'testsmtp8@gmail.com';
-            $config['smtp_pass'] = '@sdf1234';
-            $config['charset'] = 'utf-8';
-            $config['newline'] = "\r\n";
-            $config['mailtype'] = "html";
-
-            $ci->email->initialize($config);
-
-            $ci->email->from('info@asianlogistics.com', 'Asia Logistic');
-            $ci->email->to($email, $name);
-            $this->email->reply_to('info@asianlogistics.com', 'Asia Logistic');
-            $ci->email->subject($subject);
-            $ci->email->message($message);
-            $ci->email->send();
+            $from = "info@asianlogistics.com";
+            $headers = "From:" . $from;
+            mail($email, $subject, $message, $headers);
         } catch (Exception $e) {
             log_message('error', $e->getMessage());
             throw $e;

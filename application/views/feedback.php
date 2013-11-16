@@ -46,7 +46,7 @@
                     <?php endif; ?>
 
 
-                    <form class="nobottommargin" id="feedbackForm" name="template-contactform"
+                    <form class="nobottommargin" id="feedbackForm" name="feedbackForm"
                           action="<?php echo base_url('/feedback') ?>" method="post">
 
                         <div class="col_full nobottommargin">
