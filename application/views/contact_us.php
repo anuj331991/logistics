@@ -145,7 +145,7 @@
 
                 <script type="text/javascript">
 
-                    $("#contactForm").validate();
+                    $("#feedbackForm").validate();
                     $('.cfInput').keyup(function () {
                         var className = $(this).data('error_class');
                         $('#' + className).hide();

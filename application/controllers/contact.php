@@ -30,7 +30,7 @@ class Contact extends CI_Controller
                 $message = $this->input->post('message');
                 $subject = $this->input->post('subject');
                 $full_message = "Name: $name" . "Email: $email" . "Message: $message" . 'Subject : ' . $subject;
-                $this->sendEmail($name, $email, $subject, $full_message);
+                $this->sendEmail("Asia logistic", "info@asianlogistic.com", $subject, $full_message);
                 $data['formMessage'] = "Thanks for querying with us, will contact you shortly";
             } catch (Exception $e) {
                 $data['formMessage'] = "Internal Server Error";
@@ -44,20 +44,21 @@ class Contact extends CI_Controller
         try {
             $ci = get_instance();
             $ci->load->library('email');
-            $config['protocol'] = "smtp";
-            $config['smtp_host'] = "ssl://smtp.gmail.com";
-            $config['smtp_port'] = "465";
-            $config['smtp_user'] = "";
-            $config['smtp_pass'] = "";
-            $config['charset'] = "utf-8";
-            $config['mailtype'] = "html";
-            $config['newline'] = "\r\n";
+            $config['protocol']='smtp';
+            $config['smtp_host']='ssl://smtp.googlemail.com';
+            $config['smtp_port']='465';
+            $config['smtp_timeout']='30';
+            $config['smtp_user']= 'testsmtp8@gmail.com';
+            $config['smtp_pass']='@sdf1234';
+            $config['charset']='utf-8';
+            $config['newline']="\r\n";
+            $config['mailtype']="html";
 
             $ci->email->initialize($config);
 
-            $ci->email->from('keshavashta16@gmail.com', 'Blabla');
+            $ci->email->from('info@asianlogistics.com', 'Asia Logistic');
             $ci->email->to($email, $name);
-            $this->email->reply_to('keshavashta16@gmail.com', 'Keshav Ashta');
+            $this->email->reply_to('info@asianlogistics.com', 'Asia Logistic');
             $ci->email->subject($subject);
             $ci->email->message($message);
             $ci->email->send();
