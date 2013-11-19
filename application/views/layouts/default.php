@@ -134,9 +134,9 @@
                         <div class="ts-text">Twitter</div>
                     </a></li>
 
-                <li class="ts-phone"><a href="tel:+913326789234" style="background-color: #f88f16">
+                <li class="ts-phone"><a href="tel:9891999942" style="background-color: rgb(248, 143, 22); width: 40px;">
                         <div class="ts-icon"></div>
-                        <div class="ts-text">+91.33.26789234</div>
+                        <div class="ts-text">9891999942</div>
                     </a></li>
                 <li class="ts-mail"><a href="" style="background-color: #1fd36f">
                         <div class="ts-icon"></div>
@@ -282,7 +282,7 @@
                     <ul>
 
                         <li class="icon-map-marker">Khasra No.831,K-BLOCK <br/>Kole Wali Gali,Mahipalpur Extn<br/> VastantKunj Road, New Delhi-37</li>
-                        <li class="icon-phone">+91-22-21144113</li>
+                        <li class="icon-phone">+91-9891999942</li>
                         <li class="icon-envelope-alt">info@asianlogistics.com</li>
 
                     </ul>
