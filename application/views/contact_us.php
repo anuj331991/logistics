@@ -169,7 +169,7 @@
 
                         <h3>Call us:</h3>
 
-                        <p>+91-9891999942</p></div>
+                        <p>1800-3322-4453</p></div>
 
                     <div class="product-feature"><span class="icon-envelope-alt"></span>
 

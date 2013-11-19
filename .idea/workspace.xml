@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec1f2bbe-8324-403f-9372-49b045f1d9b9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/feedback.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/feedback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/feedback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/services/EmailService.php" afterPath="$PROJECT_DIR$/application/services/EmailService.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/autoload.php" afterPath="$PROJECT_DIR$/application/config/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/contact.php" afterPath="$PROJECT_DIR$/application/controllers/contact.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/contact_us.php" afterPath="$PROJECT_DIR$/application/views/contact_us.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/layouts/default.php" afterPath="$PROJECT_DIR$/application/views/layouts/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="logistics.iws" />
@@ -84,7 +92,7 @@
       <file leaf-file-name="default.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/layouts/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="60" selection-start="4787" selection-end="4787" vertical-scroll-proportion="0.44111776" vertical-offset="2091" max-vertical-offset="6460">
+            <state line="284" column="62" selection-start="8978" selection-end="8989" vertical-scroll-proportion="4.8522954" vertical-offset="2397" max-vertical-offset="6460">
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -96,10 +104,10 @@
       <file leaf-file-name="contact_us.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/contact_us.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="41" selection-start="6592" selection-end="6592" vertical-scroll-proportion="-18.115385" vertical-offset="2436" max-vertical-offset="3434">
+            <state line="171" column="41" selection-start="6578" selection-end="6592" vertical-scroll-proportion="-18.115385" vertical-offset="2436" max-vertical-offset="3434">
               <folding>
-                <marker date="1384878878529" expanded="false" signature="929:942" placeholder="..." />
-                <marker date="1384878878529" expanded="false" signature="984:1004" placeholder="..." />
+                <marker date="1384879131895" expanded="false" signature="929:942" placeholder="..." />
+                <marker date="1384879131895" expanded="false" signature="984:1004" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -146,8 +154,8 @@
         <option value="$PROJECT_DIR$/../opencart/catalog/view/theme/metroshop/template/module/slideshow.tpl" />
         <option value="$USER_HOME$/Desktop/New folder/xcdsoft.tar/xcdsoft/application/models/dashboard_model.php" />
         <option value="$USER_HOME$/Desktop/New folder/xcdsoft.tar/xcdsoft/application/models/form_model.php" />
-        <option value="$PROJECT_DIR$/application/views/contact_us.php" />
         <option value="$PROJECT_DIR$/application/views/layouts/default.php" />
+        <option value="$PROJECT_DIR$/application/views/contact_us.php" />
       </list>
     </option>
   </component>
@@ -624,17 +632,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/contact_us.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="41" selection-start="6592" selection-end="6592" vertical-scroll-proportion="-18.115385" vertical-offset="2436" max-vertical-offset="3434">
+        <state line="171" column="41" selection-start="6578" selection-end="6592" vertical-scroll-proportion="-18.115385" vertical-offset="2436" max-vertical-offset="3434">
           <folding>
-            <marker date="1384878878529" expanded="false" signature="929:942" placeholder="..." />
-            <marker date="1384878878529" expanded="false" signature="984:1004" placeholder="..." />
+            <marker date="1384879131895" expanded="false" signature="929:942" placeholder="..." />
+            <marker date="1384879131895" expanded="false" signature="984:1004" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/layouts/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="60" selection-start="4787" selection-end="4787" vertical-scroll-proportion="0.44111776" vertical-offset="2091" max-vertical-offset="6460">
+        <state line="284" column="62" selection-start="8978" selection-end="8989" vertical-scroll-proportion="4.8522954" vertical-offset="2397" max-vertical-offset="6460">
           <folding>
             <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
