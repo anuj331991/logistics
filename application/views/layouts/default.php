@@ -87,6 +87,13 @@
 
                 </li>
 
+                <li class="<?php if ($active == "feedback") {
+                    echo "current";
+                } ?>"><a href="<?php echo base_url('feedback'); ?>">
+                        <div>Feedback</div>
+                        <span>Any Comments?</span></a></li>
+
+
                 <li class="<?php if ($active == "contact") {
                     echo "current";
                 } ?>"><a href="<?php echo base_url('contact'); ?>">
@@ -114,6 +121,8 @@
                 <li><span>/</span><a href="<?php echo base_url('service/ocean'); ?>">Service</a></li>
                 <li class="top-menu-em"><span>/</span><a href="<?php echo base_url('contact'); ?>"
                                                          style="opacity: 1;"><i class="icon-map-marker"></i> Contact Us</a>
+                <li class="top-menu-em"><span>/</span><a href="<?php echo base_url('feedback'); ?>"
+                                                         style="opacity: 1;"><i class="icon-envelope-alt"></i> Feedback</a>
                 </li>
 
             </ul>
@@ -134,9 +143,9 @@
                         <div class="ts-text">Twitter</div>
                     </a></li>
 
-                <li class="ts-phone"><a href="tel:+913326789234" style="background-color: #f88f16">
+                <li class="ts-phone"><a href="tel:9891999942" style="background-color: #f88f16">
                         <div class="ts-icon"></div>
-                        <div class="ts-text">+91.33.26789234</div>
+                        <div class="ts-text">9891999942</div>
                     </a></li>
                 <li class="ts-mail"><a href="" style="background-color: #1fd36f">
                         <div class="ts-icon"></div>
@@ -200,6 +209,11 @@
                 } ?>"><a href="<?php echo base_url('contact'); ?>">
                         <div>Contact</div>
                         <span>Get in Touch</span></a></li>
+                <li class="<?php if ($active == "feedback") {
+                    echo "current";
+                } ?>"><a href="<?php echo base_url('feedback'); ?>">
+                        <div>Feedback</div>
+                        <span>Any Comments?</span></a></li>
 
             </ul>
 
@@ -261,6 +275,7 @@
                         <li><a href="<?php echo base_url('about'); ?>">About Us</a></li>
                         <li><a href="<?php echo base_url('services'); ?>">Services</a></li>
                         <li><a href="<?php echo base_url('contact'); ?>">Contact</a></li>
+                        <li><a href="<?php echo base_url('feedback'); ?>">Feedback</a></li>
 
                     </ul>
 
@@ -282,7 +297,7 @@
                     <ul>
 
                         <li class="icon-map-marker">Khasra No.831,K-BLOCK <br/>Kole Wali Gali,Mahipalpur Extn<br/> VastantKunj Road, New Delhi-37</li>
-                        <li class="icon-phone">+91-22-21144113</li>
+                        <li class="icon-phone">+91-9891999942</li>
                         <li class="icon-envelope-alt">info@asianlogistics.com</li>
 
                     </ul>

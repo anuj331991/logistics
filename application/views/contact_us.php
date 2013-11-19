@@ -75,14 +75,20 @@
 
                     <h2>Send us an <span>Email</span></h2>
 
-                    <div id="contact-form-result"></div>
-                    <?php if (isset($formMessage)) : ?>
+                    <div id="contact-form-result" ></div>
+                    <?php $formMessage = $this->session->flashdata('formMessage');
+                    if (!empty($formMessage)) : ?>
 
-                    <div>
-                        <?php echo $formMessage; ?>
-                    </div>
+                        <div class="alert-success alert">
+                            <?php echo $formMessage; ?>
+                        </div>
                     <?php endif; ?>
+                    <?php if (isset($errorMessage)) : ?>
 
+                        <div class="alert-danger alert">
+                            <?php echo $errorMessage; ?>
+                        </div>
+                    <?php endif; ?>
                     <form class="nobottommargin" id="contactForm" name="template-contactform"
                           action="<?php echo base_url('/contact') ?>" method="post">
 
@@ -145,7 +151,7 @@
 
                 <script type="text/javascript">
 
-                    $("#contactForm").validate();
+                    $("#feedbackForm").validate();
                     $('.cfInput').keyup(function () {
                         var className = $(this).data('error_class');
                         $('#' + className).hide();
@@ -163,13 +169,14 @@
 
                         <h3>Our Headquarters</h3>
 
-                        <p>Khasra No.831,K-BLOCK <br/>Kole Wali Gali,Mahipalpur Extn<br/> VastantKunj Road, New Delhi-37</p></div>
+                        <p>Khasra No.831,K-BLOCK <br/>Kole Wali Gali,Mahipalpur Extn<br/> VastantKunj Road, New Delhi-37
+                        </p></div>
 
                     <div class="product-feature"><span class="icon-phone"></span>
 
                         <h3>Call us:</h3>
 
-                        <p>1800-3322-4453</p></div>
+                        <p>+91-9891999942</p></div>
 
                     <div class="product-feature"><span class="icon-envelope-alt"></span>
 
